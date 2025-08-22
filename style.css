@@ -2,7 +2,13 @@ body{
    background-color: rgb(25, 25, 25);
    color: white;
    font-family: arial;
-   }
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
 .heading{
    font-size: 30px;
    font-weight: 700;
@@ -24,10 +30,10 @@ body{
 .result{
    font-size: 25px;
    font-weight: bold;
-   margin-top: 50px;
+   margin-top: 25px;
     }
 .score{
-   margin-top: 60px;
+   margin-top: 30px;
    }
 .reset-score-btn{
    background-color: white;
@@ -36,5 +42,16 @@ body{
    padding: 8px 15px;
    cursor: pointer;
    }
+.result{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
 
-
+}
+.control{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
